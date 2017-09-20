@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression TestSuite">
+<test name="Groups Test">
+<groups>
+	<define name ="all">
+		<include name="bikes"></include>
+		<include name="suv"></include>
+		<include name="sedan"></include>
+	</define>
+	
+	<define name ="nobikes">
+		<include name="suv"></include>
+		<include name="sedan"></include>
+	</define>
+	
+	<run>
+		<include name="all"></include>
+	</run>
+</groups>
+
+    <classes>
+    	<class name="testclasses.TestNG_Grouping"></class>
+    </classes>
+</test>
+</suite>

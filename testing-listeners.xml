@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Listeners TestSuite">
+<test name="Application Test">
+    <classes>
+    	<class name="testclasses.TestNG_ListenersTest1"></class>
+    </classes>
+</test>
+</suite>
