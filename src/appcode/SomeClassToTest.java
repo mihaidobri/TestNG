@@ -8,7 +8,7 @@ public class SomeClassToTest {
 	}
 
 	public String addStrings(String a,String b){
-		return a + " test" + b;
+		return a + " test2" + b;
 	}
 	
 	public int[] getArray(){
